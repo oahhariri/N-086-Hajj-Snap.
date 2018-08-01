@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CBCCA994F0A1ADD8867AA70 /* Pods_Hajj_SnapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5E4F9C0FB30F2839A1F284 /* Pods_Hajj_SnapUITests.framework */; };
+		57E643AB789F77C36DCE5BBA /* Pods_Hajj_Snap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AC98C9AE51EAD2E5B7E94B /* Pods_Hajj_Snap.framework */; };
+		725C02DED63DC6CE09CB1379 /* Pods_Hajj_SnapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8625CF0F6EE4C54D8AB8A70 /* Pods_Hajj_SnapTests.framework */; };
+		C7B7D81621121AE6008C679A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D81521121AE6008C679A /* AppDelegate.swift */; };
+		C7B7D81821121AE6008C679A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D81721121AE6008C679A /* ViewController.swift */; };
+		C7B7D81B21121AE6008C679A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B7D81921121AE6008C679A /* Main.storyboard */; };
+		C7B7D81E21121AE6008C679A /* Hajj_Snap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D81C21121AE6008C679A /* Hajj_Snap.xcdatamodeld */; };
+		C7B7D82021121AE7008C679A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B7D81F21121AE7008C679A /* Assets.xcassets */; };
+		C7B7D82321121AE7008C679A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B7D82121121AE7008C679A /* LaunchScreen.storyboard */; };
+		C7B7D82E21121AE7008C679A /* Hajj_SnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D82D21121AE7008C679A /* Hajj_SnapTests.swift */; };
+		C7B7D83921121AE7008C679A /* Hajj_SnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D83821121AE7008C679A /* Hajj_SnapUITests.swift */; };
+		C7B7D8472112213C008C679A /* PicInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D8462112213C008C679A /* PicInfoVC.swift */; };
+		C7B7D8492112272E008C679A /* Extenstios.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D8482112272E008C679A /* Extenstios.swift */; };
+		C7B7D84B21122A59008C679A /* GalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D84A21122A59008C679A /* GalleryVC.swift */; };
+		C7B7D84D21122ABD008C679A /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7D84C21122ABD008C679A /* GalleryCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7B7D82A21121AE7008C679A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B7D80A21121AE6008C679A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B7D81121121AE6008C679A;
+			remoteInfo = "Hajj Snap";
+		};
+		C7B7D83521121AE7008C679A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B7D80A21121AE6008C679A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B7D81121121AE6008C679A;
+			remoteInfo = "Hajj Snap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42A0F1B9DB4A89B9190FD8FE /* Pods-Hajj SnapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj SnapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj SnapTests/Pods-Hajj SnapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48A2859AD6C34BF96D3B2118 /* Pods-Hajj SnapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj SnapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj SnapTests/Pods-Hajj SnapTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B2A5A018398D6B2429F24FA /* Pods-Hajj SnapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj SnapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj SnapUITests/Pods-Hajj SnapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7464C87FAE546E95B29AD64B /* Pods-Hajj SnapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj SnapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj SnapUITests/Pods-Hajj SnapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89D7F6CA55C00E3108E8029B /* Pods-Hajj Snap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj Snap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj Snap/Pods-Hajj Snap.release.xcconfig"; sourceTree = "<group>"; };
+		A8625CF0F6EE4C54D8AB8A70 /* Pods_Hajj_SnapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hajj_SnapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5E4F9C0FB30F2839A1F284 /* Pods_Hajj_SnapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hajj_SnapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B7D81221121AE6008C679A /* Hajj Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hajj Snap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B7D81521121AE6008C679A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7B7D81721121AE6008C679A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7B7D81A21121AE6008C679A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7B7D81D21121AE6008C679A /* Hajj_Snap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hajj_Snap.xcdatamodel; sourceTree = "<group>"; };
+		C7B7D81F21121AE7008C679A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7B7D82221121AE7008C679A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7B7D82421121AE7008C679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B7D82921121AE7008C679A /* Hajj SnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hajj SnapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B7D82D21121AE7008C679A /* Hajj_SnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hajj_SnapTests.swift; sourceTree = "<group>"; };
+		C7B7D82F21121AE7008C679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B7D83421121AE7008C679A /* Hajj SnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hajj SnapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B7D83821121AE7008C679A /* Hajj_SnapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hajj_SnapUITests.swift; sourceTree = "<group>"; };
+		C7B7D83A21121AE7008C679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B7D8462112213C008C679A /* PicInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicInfoVC.swift; sourceTree = "<group>"; };
+		C7B7D8482112272E008C679A /* Extenstios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extenstios.swift; sourceTree = "<group>"; };
+		C7B7D84A21122A59008C679A /* GalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryVC.swift; sourceTree = "<group>"; };
+		C7B7D84C21122ABD008C679A /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		D5AC98C9AE51EAD2E5B7E94B /* Pods_Hajj_Snap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hajj_Snap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E689BF711EF6B0B86CB77965 /* Pods-Hajj Snap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj Snap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj Snap/Pods-Hajj Snap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B7D80F21121AE6008C679A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E643AB789F77C36DCE5BBA /* Pods_Hajj_Snap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B7D82621121AE7008C679A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725C02DED63DC6CE09CB1379 /* Pods_Hajj_SnapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B7D83121121AE7008C679A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBCCA994F0A1ADD8867AA70 /* Pods_Hajj_SnapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48DB7558A299CD230124957D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC98C9AE51EAD2E5B7E94B /* Pods_Hajj_Snap.framework */,
+				A8625CF0F6EE4C54D8AB8A70 /* Pods_Hajj_SnapTests.framework */,
+				AB5E4F9C0FB30F2839A1F284 /* Pods_Hajj_SnapUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B7D80921121AE6008C679A = {
+			isa = PBXGroup;
+			children = (
+				C7B7D81421121AE6008C679A /* Hajj Snap */,
+				C7B7D82C21121AE7008C679A /* Hajj SnapTests */,
+				C7B7D83721121AE7008C679A /* Hajj SnapUITests */,
+				C7B7D81321121AE6008C679A /* Products */,
+				F07ADF909AA1ECEDDB0A34B0 /* Pods */,
+				48DB7558A299CD230124957D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B7D81321121AE6008C679A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B7D81221121AE6008C679A /* Hajj Snap.app */,
+				C7B7D82921121AE7008C679A /* Hajj SnapTests.xctest */,
+				C7B7D83421121AE7008C679A /* Hajj SnapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B7D81421121AE6008C679A /* Hajj Snap */ = {
+			isa = PBXGroup;
+			children = (
+				C7B7D81521121AE6008C679A /* AppDelegate.swift */,
+				C7B7D81721121AE6008C679A /* ViewController.swift */,
+				C7B7D8482112272E008C679A /* Extenstios.swift */,
+				C7B7D81921121AE6008C679A /* Main.storyboard */,
+				C7B7D81F21121AE7008C679A /* Assets.xcassets */,
+				C7B7D82121121AE7008C679A /* LaunchScreen.storyboard */,
+				C7B7D82421121AE7008C679A /* Info.plist */,
+				C7B7D81C21121AE6008C679A /* Hajj_Snap.xcdatamodeld */,
+				C7B7D8462112213C008C679A /* PicInfoVC.swift */,
+				C7B7D84A21122A59008C679A /* GalleryVC.swift */,
+				C7B7D84C21122ABD008C679A /* GalleryCell.swift */,
+			);
+			path = "Hajj Snap";
+			sourceTree = "<group>";
+		};
+		C7B7D82C21121AE7008C679A /* Hajj SnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B7D82D21121AE7008C679A /* Hajj_SnapTests.swift */,
+				C7B7D82F21121AE7008C679A /* Info.plist */,
+			);
+			path = "Hajj SnapTests";
+			sourceTree = "<group>";
+		};
+		C7B7D83721121AE7008C679A /* Hajj SnapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B7D83821121AE7008C679A /* Hajj_SnapUITests.swift */,
+				C7B7D83A21121AE7008C679A /* Info.plist */,
+			);
+			path = "Hajj SnapUITests";
+			sourceTree = "<group>";
+		};
+		F07ADF909AA1ECEDDB0A34B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E689BF711EF6B0B86CB77965 /* Pods-Hajj Snap.debug.xcconfig */,
+				89D7F6CA55C00E3108E8029B /* Pods-Hajj Snap.release.xcconfig */,
+				42A0F1B9DB4A89B9190FD8FE /* Pods-Hajj SnapTests.debug.xcconfig */,
+				48A2859AD6C34BF96D3B2118 /* Pods-Hajj SnapTests.release.xcconfig */,
+				7464C87FAE546E95B29AD64B /* Pods-Hajj SnapUITests.debug.xcconfig */,
+				6B2A5A018398D6B2429F24FA /* Pods-Hajj SnapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B7D81121121AE6008C679A /* Hajj Snap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B7D83D21121AE7008C679A /* Build configuration list for PBXNativeTarget "Hajj Snap" */;
+			buildPhases = (
+				743C0A25B8FE07B7619BC20B /* [CP] Check Pods Manifest.lock */,
+				C7B7D80E21121AE6008C679A /* Sources */,
+				C7B7D80F21121AE6008C679A /* Frameworks */,
+				C7B7D81021121AE6008C679A /* Resources */,
+				7F8584D5BA2E44A782774FA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hajj Snap";
+			productName = "Hajj Snap";
+			productReference = C7B7D81221121AE6008C679A /* Hajj Snap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7B7D82821121AE7008C679A /* Hajj SnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B7D84021121AE7008C679A /* Build configuration list for PBXNativeTarget "Hajj SnapTests" */;
+			buildPhases = (
+				3A4424F863A84C99E98AFB5A /* [CP] Check Pods Manifest.lock */,
+				C7B7D82521121AE7008C679A /* Sources */,
+				C7B7D82621121AE7008C679A /* Frameworks */,
+				C7B7D82721121AE7008C679A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B7D82B21121AE7008C679A /* PBXTargetDependency */,
+			);
+			name = "Hajj SnapTests";
+			productName = "Hajj SnapTests";
+			productReference = C7B7D82921121AE7008C679A /* Hajj SnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7B7D83321121AE7008C679A /* Hajj SnapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B7D84321121AE7008C679A /* Build configuration list for PBXNativeTarget "Hajj SnapUITests" */;
+			buildPhases = (
+				F22476E317AF01558D9D7EF7 /* [CP] Check Pods Manifest.lock */,
+				C7B7D83021121AE7008C679A /* Sources */,
+				C7B7D83121121AE7008C679A /* Frameworks */,
+				C7B7D83221121AE7008C679A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B7D83621121AE7008C679A /* PBXTargetDependency */,
+			);
+			name = "Hajj SnapUITests";
+			productName = "Hajj SnapUITests";
+			productReference = C7B7D83421121AE7008C679A /* Hajj SnapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B7D80A21121AE6008C679A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Majed Hariri";
+				TargetAttributes = {
+					C7B7D81121121AE6008C679A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C7B7D82821121AE7008C679A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C7B7D81121121AE6008C679A;
+					};
+					C7B7D83321121AE7008C679A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C7B7D81121121AE6008C679A;
+					};
+				};
+			};
+			buildConfigurationList = C7B7D80D21121AE6008C679A /* Build configuration list for PBXProject "Hajj Snap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B7D80921121AE6008C679A;
+			productRefGroup = C7B7D81321121AE6008C679A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B7D81121121AE6008C679A /* Hajj Snap */,
+				C7B7D82821121AE7008C679A /* Hajj SnapTests */,
+				C7B7D83321121AE7008C679A /* Hajj SnapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B7D81021121AE6008C679A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B7D82321121AE7008C679A /* LaunchScreen.storyboard in Resources */,
+				C7B7D82021121AE7008C679A /* Assets.xcassets in Resources */,
+				C7B7D81B21121AE6008C679A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B7D82721121AE7008C679A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B7D83221121AE7008C679A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A4424F863A84C99E98AFB5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hajj SnapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		743C0A25B8FE07B7619BC20B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hajj Snap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F8584D5BA2E44A782774FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hajj Snap/Pods-Hajj Snap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ALThreeCircleSpinner/ALThreeCircleSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/EZLoadingActivity/EZLoadingActivity.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/RSKPlaceholderTextView/RSKPlaceholderTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyDrop/SwiftyDrop.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toucan/Toucan.framework",
+				"${BUILT_PRODUCTS_DIR}/WXImageCompress/WXImageCompress.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALThreeCircleSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZLoadingActivity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSKPlaceholderTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyDrop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toucan.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WXImageCompress.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hajj Snap/Pods-Hajj Snap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F22476E317AF01558D9D7EF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hajj SnapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B7D80E21121AE6008C679A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B7D81821121AE6008C679A /* ViewController.swift in Sources */,
+				C7B7D84D21122ABD008C679A /* GalleryCell.swift in Sources */,
+				C7B7D84B21122A59008C679A /* GalleryVC.swift in Sources */,
+				C7B7D81E21121AE6008C679A /* Hajj_Snap.xcdatamodeld in Sources */,
+				C7B7D8492112272E008C679A /* Extenstios.swift in Sources */,
+				C7B7D81621121AE6008C679A /* AppDelegate.swift in Sources */,
+				C7B7D8472112213C008C679A /* PicInfoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B7D82521121AE7008C679A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B7D82E21121AE7008C679A /* Hajj_SnapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B7D83021121AE7008C679A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B7D83921121AE7008C679A /* Hajj_SnapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B7D82B21121AE7008C679A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B7D81121121AE6008C679A /* Hajj Snap */;
+			targetProxy = C7B7D82A21121AE7008C679A /* PBXContainerItemProxy */;
+		};
+		C7B7D83621121AE7008C679A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B7D81121121AE6008C679A /* Hajj Snap */;
+			targetProxy = C7B7D83521121AE7008C679A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7B7D81921121AE6008C679A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B7D81A21121AE6008C679A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7B7D82121121AE7008C679A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B7D82221121AE7008C679A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B7D83B21121AE7008C679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7B7D83C21121AE7008C679A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B7D83E21121AE7008C679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E689BF711EF6B0B86CB77965 /* Pods-Hajj Snap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VKABGQ3CXK;
+				INFOPLIST_FILE = "Hajj Snap/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majed.Hajj-Snap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7B7D83F21121AE7008C679A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D7F6CA55C00E3108E8029B /* Pods-Hajj Snap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VKABGQ3CXK;
+				INFOPLIST_FILE = "Hajj Snap/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majed.Hajj-Snap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7B7D84121121AE7008C679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A0F1B9DB4A89B9190FD8FE /* Pods-Hajj SnapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W97ESK6NN;
+				INFOPLIST_FILE = "Hajj SnapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majed.Hajj-SnapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hajj Snap.app/Hajj Snap";
+			};
+			name = Debug;
+		};
+		C7B7D84221121AE7008C679A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A2859AD6C34BF96D3B2118 /* Pods-Hajj SnapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W97ESK6NN;
+				INFOPLIST_FILE = "Hajj SnapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majed.Hajj-SnapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hajj Snap.app/Hajj Snap";
+			};
+			name = Release;
+		};
+		C7B7D84421121AE7008C679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7464C87FAE546E95B29AD64B /* Pods-Hajj SnapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W97ESK6NN;
+				INFOPLIST_FILE = "Hajj SnapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majed.Hajj-SnapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hajj Snap";
+			};
+			name = Debug;
+		};
+		C7B7D84521121AE7008C679A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2A5A018398D6B2429F24FA /* Pods-Hajj SnapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W97ESK6NN;
+				INFOPLIST_FILE = "Hajj SnapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majed.Hajj-SnapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hajj Snap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B7D80D21121AE6008C679A /* Build configuration list for PBXProject "Hajj Snap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B7D83B21121AE7008C679A /* Debug */,
+				C7B7D83C21121AE7008C679A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B7D83D21121AE7008C679A /* Build configuration list for PBXNativeTarget "Hajj Snap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B7D83E21121AE7008C679A /* Debug */,
+				C7B7D83F21121AE7008C679A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B7D84021121AE7008C679A /* Build configuration list for PBXNativeTarget "Hajj SnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B7D84121121AE7008C679A /* Debug */,
+				C7B7D84221121AE7008C679A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B7D84321121AE7008C679A /* Build configuration list for PBXNativeTarget "Hajj SnapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B7D84421121AE7008C679A /* Debug */,
+				C7B7D84521121AE7008C679A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7B7D81C21121AE6008C679A /* Hajj_Snap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7B7D81D21121AE6008C679A /* Hajj_Snap.xcdatamodel */,
+			);
+			currentVersion = C7B7D81D21121AE6008C679A /* Hajj_Snap.xcdatamodel */;
+			path = Hajj_Snap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7B7D80A21121AE6008C679A /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Hajj_Snap {
+  umbrella header "Pods-Hajj Snap-umbrella.h"
+
+  export *
+  module * { export * }
+}

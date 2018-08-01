@@ -29,8 +29,29 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
     
+    
+    func randomString(length: Int) -> String {
+        let letters : NSString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        let len = UInt32(letters.length)
+        
+        var randomString = ""
+        
+        for _ in 0 ..< length {
+            let rand = arc4random_uniform(len)
+            var nextChar = letters.character(at: Int(rand))
+            randomString += NSString(characters: &nextChar, length: 1) as String
+        }
+        return randomString
+    }
+    
     @IBAction func Take_Pic(_ sender: Any) {
         
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        
+        if let data = UIImagePNGRepresentation( sceneView.snapshot()) {
+            let filename = paths[0].appendingPathComponent("\(randomString(length: 10)).png")
+            try? data.write(to: filename)
+        }
         
         
     }

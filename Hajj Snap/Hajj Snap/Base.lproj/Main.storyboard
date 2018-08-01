@@ -205,6 +205,9 @@
                                 <state key="normal" title="ألتقط صوره">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="Take_Pic:" destination="Xue-Qs-E8r" eventType="touchUpInside" id="iya-Wf-JWZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

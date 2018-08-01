@@ -29,6 +29,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
     
+    @IBAction func Take_Pic(_ sender: Any) {
+        
+        
+        
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         let configuration = ARWorldTrackingConfiguration()

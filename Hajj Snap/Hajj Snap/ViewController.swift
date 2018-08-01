@@ -50,7 +50,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         if let data = UIImagePNGRepresentation( sceneView.snapshot()) {
             let filename = paths[0].appendingPathComponent("\(randomString(length: 10)).png")
-            try? data.write(to: filename)
+            do{
+                
+            try data.write(to: filename)
+                
+            }catch{
+            
+            }
         }
         
         
